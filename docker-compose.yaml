@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  todoapp:
+    image: todoapp
+    container_name: todoapp-container
+    ports:
+      - "8080:8080"
+    restart: always
